@@ -1,0 +1,5 @@
+print("What up cuz, Im the JaM, the one and only. I'm the jumper with the greatest jumper, and the best shooter on the court and in the streets.")
+name=input("whats your name homie?")
+sport=input(f"aight {name}, what sport you play")
+print(f"{sport}? Thats lit, I play basketball, and I'm the best player OAT, thats right, THE GOAT")
+print("people talm bout sum LEBRON or MJ, but I would gas any of them 1 on 1")
