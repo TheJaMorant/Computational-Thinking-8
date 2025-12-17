@@ -9,78 +9,85 @@ edm = 0
 classical = 0
 input("WELCOME TO THE MUSIC GENRE QUIZ!")
 
-answer1=input("First, do you like music that makes you A sad, B happy, C energized, or D, no specific emotion")
-if answer1 == "A":
+answer1=input("First, do you like music that makes you A sad, B happy, C energized, or D, no specific emotion ")
+if answer1 == "A" or "a":
     indie += 1
     country += 1   
-elif answer1 == "B":
+elif answer1 == "B" or "b":
     Hiphop += 1
     jazz += 1
     HeavyMetal += 1
     pop += 1
     edm += 1
-elif answer1 == "C":
+elif answer1 == "C" or "c":
     HardRock += 1
     HeavyMetal += 1
     edm += 1   
-elif answer1 == "D":
+elif answer1 == "D" or "d":
     classical += 1
     jazz += 1
     pop += 1
     Hiphop += 1
 
 
-answer2=input("Next, what musical elements do you enjoy? A instrument solos, B vocals, C good riffs, D cool/weird sounds")
-if answer2 == "A":
+answer2=input("Next, what musical elements do you enjoy? A instrument solos, B vocals, C good riffs, D cool/weird sounds ")
+if answer2 == "A" or "a":
     jazz += 1
     HeavyMetal += 1   
-elif answer2 == "B":
+elif answer2 == "B" or "b":
     Hiphop += 1
     pop += 1
     country += 1
     HardRock += 1
+elif answer2 == "C" or "c":
+    HeavyMetal += 1
+    indie += 1
+    HardRock += 1
+elif answer2 == "D" or "d":
+    indie += 2
+    Hiphop += 1
 
 
-answer3=input("Are you more into A heavy music with lots of sound, B light minimalistic songs, or C songs that focus on one sound (Vocals, solo, a gimmick)")
-if answer3 == "A":
+answer3=input("Are you more into A heavy music with lots of sound, B light minimalistic songs, or C songs that focus on one sound (Vocals, solo, a gimmick) ")
+if answer3 == "A" or "a":
     HeavyMetal += 2
     indie += 2
     classical += 1
     jazz += 1
     edm += 2
-elif answer3 == "B" :
+elif answer3 == "B" or "b" :
     pop += 2
     country += 1
-elif answer3 == "C" :
+elif answer3 == "C" or "c" :
     Hiphop += 2
     indie += 1
 
 
-answer4=input("Do you prefer A electric instruments, or B acoustic instruments?")
-if answer4 == "A" :
+answer4=input("Do you prefer A electric instruments, or B acoustic instruments? ")
+if answer4 == "A" or "a" :
     HeavyMetal += 2
     indie += 1
     HardRock += 2
     country += 1
-elif answer4 == "B" :
+elif answer4 == "B" or "b" :
     jazz += 2
     classical += 2
     pop += 1
     indie += 1
 
 
-answer5=input("When listening to music, do you: A blast your music, B play it at a normal volume, or C have it as low as possible")
-if answer5 == "A" :
+answer5=input("When listening to music, do you: A blast your music, B play it at a normal volume, or C have it as low as possible ")
+if answer5 == "A" or "a" :
     HardRock += 2
     HeavyMetal += 2
     edm += 2
     country += 1
     Hiphop += 1
-elif answer5 == "B" :
+elif answer5 == "B" or "b":
     pop += 2
     jazz += 2
     indie += 1
-elif answer5 == "C":
+elif answer5 == "C" or "c":
     classical += 2
 
 
