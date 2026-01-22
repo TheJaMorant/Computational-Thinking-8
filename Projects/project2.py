@@ -10,20 +10,20 @@ classical = 0
 input("WELCOME TO THE MUSIC GENRE QUIZ!")
 
 answer1=input("First, do you like music that makes you A sad, B happy, C energized, or D, no specific emotion ")
-if answer1 == "A" or "a":
+if answer1 == "A" or answer1 == "a":
     indie += 1
     country += 1   
-elif answer1 == "B" or "b":
+elif answer1 == "B" or answer1 == "b":
     Hiphop += 1
     jazz += 1
     HeavyMetal += 1
     pop += 1
     edm += 1
-elif answer1 == "C" or "c":
+elif answer1 == "C" or answer1 == "c":
     HardRock += 1
     HeavyMetal += 1
     edm += 1   
-elif answer1 == "D" or "d":
+elif answer1 == "D" or answer1 == "d":
     classical += 1
     jazz += 1
     pop += 1
@@ -31,45 +31,45 @@ elif answer1 == "D" or "d":
 
 
 answer2=input("Next, what musical elements do you enjoy? A instrument solos, B vocals, C good riffs, D cool/weird sounds ")
-if answer2 == "A" or "a":
+if answer2 == "A" or answer2 == "a":
     jazz += 1
     HeavyMetal += 1   
-elif answer2 == "B" or "b":
+elif answer2 == "B" or answer2 == "b":
     Hiphop += 1
     pop += 1
     country += 1
     HardRock += 1
-elif answer2 == "C" or "c":
+elif answer2 == "C" or answer2 == "c":
     HeavyMetal += 1
     indie += 1
     HardRock += 1
-elif answer2 == "D" or "d":
+elif answer2 == "D" or answer2 == "d":
     indie += 2
     Hiphop += 1
 
 
 answer3=input("Are you more into A heavy music with lots of sound, B light minimalistic songs, or C songs that focus on one sound (Vocals, solo, a gimmick) ")
-if answer3 == "A" or "a":
+if answer3 == "A" or answer3 == "a":
     HeavyMetal += 2
     indie += 2
     classical += 1
     jazz += 1
     edm += 2
-elif answer3 == "B" or "b" :
+elif answer3 == "B" or answer3 == "b" :
     pop += 2
     country += 1
-elif answer3 == "C" or "c" :
+elif answer3 == "C" or answer3 == "c" :
     Hiphop += 2
     indie += 1
 
 
 answer4=input("Do you prefer A electric instruments, or B acoustic instruments? ")
-if answer4 == "A" or "a" :
+if answer4 == "A" or answer4 == "a" :
     HeavyMetal += 2
     indie += 1
     HardRock += 2
     country += 1
-elif answer4 == "B" or "b" :
+elif answer4 == "B" or answer4 == "b" :
     jazz += 2
     classical += 2
     pop += 1
@@ -77,17 +77,17 @@ elif answer4 == "B" or "b" :
 
 
 answer5=input("When listening to music, do you: A blast your music, B play it at a normal volume, or C have it as low as possible ")
-if answer5 == "A" or "a" :
+if answer5 == "A" or answer5 == "a" :
     HardRock += 2
     HeavyMetal += 2
     edm += 2
     country += 1
     Hiphop += 1
-elif answer5 == "B" or "b":
+elif answer5 == "B" or answer5 == "b":
     pop += 2
     jazz += 2
     indie += 1
-elif answer5 == "C" or "c":
+elif answer5 == "C" or answer5 == "c":
     classical += 2
 
 
