@@ -76,7 +76,7 @@ def spawn_Ja24 () :
         Ja24 += 1000
         x = random.choice ([-300, -250, -200, -150, -100, -50, 0, 50, 100, 150, 200, 250, 300])
         y = random.choice ([-300, -150, 0, 150, 300])
-        create_sprite ("RookieJa", x, y)
+        create_sprite ("Ja 24", x, y)
         window.listen()
         for i in range(1000000000):
             basketballs += 25
